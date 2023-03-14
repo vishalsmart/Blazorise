@@ -58,7 +58,7 @@ public class JSDragDropModule : BaseJSModule, IJSDragDropModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/dragDrop.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/dragDrop.js?v={VersionProvider.Version}";
 
     #endregion
 }

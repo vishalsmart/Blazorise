@@ -45,7 +45,7 @@ public class JSTextEditModule : BaseJSModule, IJSTextEditModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/textEdit.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/textEdit.js?v={VersionProvider.Version}";
 
     #endregion
 }

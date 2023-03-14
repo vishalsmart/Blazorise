@@ -64,7 +64,7 @@ public class JSColorPickerModule : BaseJSModule, IJSColorPickerModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/colorPicker.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/colorPicker.js?v={VersionProvider.Version}";
 
     #endregion
 }

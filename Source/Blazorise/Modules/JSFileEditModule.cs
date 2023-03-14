@@ -53,7 +53,7 @@ public class JSFileEditModule : BaseJSModule, IJSFileEditModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/fileEdit.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/fileEdit.js?v={VersionProvider.Version}";
 
     #endregion
 }

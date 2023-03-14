@@ -108,7 +108,7 @@ public class JSUtilitiesModule : BaseJSModule, IJSUtilitiesModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/utilities.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/utilities.js?v={VersionProvider.Version}";
 
     #endregion
 }

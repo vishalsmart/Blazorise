@@ -168,7 +168,7 @@ public class JSVideoModule : BaseJSModule,
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise.Video/video.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise.Video/video.js?v={VersionProvider.Version}";
 
     #endregion
 }

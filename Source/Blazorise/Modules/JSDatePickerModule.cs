@@ -76,7 +76,7 @@ public class JSDatePickerModule : BaseJSModule, IJSDatePickerModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/datePicker.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/datePicker.js?v={VersionProvider.Version}";
 
     #endregion
 }

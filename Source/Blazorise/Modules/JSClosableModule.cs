@@ -58,7 +58,7 @@ public class JSClosableModule : BaseJSModule, IJSClosableModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/closable.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/closable.js?v={VersionProvider.Version}";
 
     #endregion
 }

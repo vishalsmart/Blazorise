@@ -63,7 +63,7 @@ public class JSNumericPickerModule : BaseJSModule, IJSNumericPickerModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/numericPicker.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/numericPicker.js?v={VersionProvider.Version}";
 
     #endregion
 }

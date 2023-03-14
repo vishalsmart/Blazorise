@@ -45,7 +45,7 @@ public class JSButtonModule : BaseJSModule, IJSButtonModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/button.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/button.js?v={VersionProvider.Version}";
 
     #endregion
 }

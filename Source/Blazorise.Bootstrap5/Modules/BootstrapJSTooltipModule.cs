@@ -10,5 +10,5 @@ internal class BootstrapJSTooltipModule : JSTooltipModule
     {
     }
 
-    public override string ModuleFileName => $"./_content/Blazorise.Bootstrap5/tooltip.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise.Bootstrap5/tooltip.js?v={VersionProvider.Version}";
 }

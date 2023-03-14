@@ -76,7 +76,7 @@ public class JSTimePickerModule : BaseJSModule, IJSTimePickerModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/timePicker.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/timePicker.js?v={VersionProvider.Version}";
 
     #endregion
 }

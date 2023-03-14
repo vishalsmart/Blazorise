@@ -56,7 +56,7 @@ public class JSTableModule : BaseJSModule, IJSTableModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/table.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/table.js?v={VersionProvider.Version}";
 
     #endregion
 }

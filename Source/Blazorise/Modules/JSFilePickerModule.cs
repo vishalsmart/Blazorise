@@ -40,7 +40,7 @@ public class JSFilePickerModule : BaseJSModule, IJSFilePickerModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/filePicker.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/filePicker.js?v={VersionProvider.Version}";
 
     #endregion
 }

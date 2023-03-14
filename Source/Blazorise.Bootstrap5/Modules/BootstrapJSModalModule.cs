@@ -10,5 +10,5 @@ internal class BootstrapJSModalModule : JSModalModule
     {
     }
 
-    public override string ModuleFileName => $"./_content/Blazorise.Bootstrap5/modal.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise.Bootstrap5/modal.js?v={VersionProvider.Version}";
 }

@@ -41,7 +41,7 @@ public class JSFileModule : BaseJSModule, IJSFileModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/io.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/io.js?v={VersionProvider.Version}";
 
 
     #endregion

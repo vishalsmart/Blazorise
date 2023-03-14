@@ -53,7 +53,7 @@ public class JSBreakpointModule : BaseJSModule, IJSBreakpointModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/breakpoint.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/breakpoint.js?v={VersionProvider.Version}";
 
     #endregion
 }

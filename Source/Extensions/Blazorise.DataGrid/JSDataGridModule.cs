@@ -45,7 +45,7 @@ public class JSDataGridModule : BaseJSModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise.DataGrid/datagrid.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise.DataGrid/datagrid.js?v={VersionProvider.Version}";
 
     #endregion
 }

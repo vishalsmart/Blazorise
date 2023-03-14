@@ -63,7 +63,7 @@ public class JSDropdownModule : BaseJSModule, IJSDropdownModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/dropdown.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/dropdown.js?v={VersionProvider.Version}";
 
     #endregion
 }

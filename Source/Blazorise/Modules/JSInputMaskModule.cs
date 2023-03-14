@@ -44,7 +44,7 @@ public class JSInputMaskModule : BaseJSModule, IJSInputMaskModule
     #region Properties
 
     /// <inheritdoc/>
-    public override string ModuleFileName => $"./_content/Blazorise/inputMask.js?v={VersionProvider.Version}";
+    public override string ModuleFileName => $"/_content/Blazorise/inputMask.js?v={VersionProvider.Version}";
 
     #endregion
 }
